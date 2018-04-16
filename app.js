@@ -7,7 +7,7 @@ const swaggerParser = require('swagger-parser');
 const express = require('express');
 
 const app = express();
-const port = '8081';
+const port = '4000';
 process.env.NODE_ENV = 'development';
 
 middleware.beforeSwagger(app);
